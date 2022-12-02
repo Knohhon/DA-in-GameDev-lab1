@@ -1,13 +1,13 @@
 # АНАЛИЗ ДАННЫХ И ИСКУССТВЕННЫЙ ИНТЕЛЛЕКТ [in GameDev]
-Отчет по лабораторной работе #1 выполнил(а):
+Отчет по лабораторной работе #2 выполнил(а):
 - Резов Дмитрий Олегович
 - РИ210911
 
 | Задание | Выполнение | Баллы |
 | ------ | ------ | ------ |
 | Задание 1 | * | 60 |
-| Задание 2 | * | 20 |
-| Задание 3 | * | 20 |
+| Задание 2 | # | 20 |
+| Задание 3 | # | 20 |
 
 знак "*" - задание выполнено; знак "#" - задание не выполнено;
 
@@ -37,40 +37,29 @@
 Ознакомиться с основными операторами языка Python на примере реализации линейной регрессии.
 
 ## Задание 1
-Hello world на Unity:
-![image](https://user-images.githubusercontent.com/112959757/192843596-f3011e16-18d7-4c6d-a37f-852900b28600.png)
+![1](https://user-images.githubusercontent.com/112959757/205315148-f7f32d40-b3e6-4fb4-aa9b-f44274dab0c2.png)
+![2](https://user-images.githubusercontent.com/112959757/205315222-254b4153-1e5a-4418-94e2-9415b91ce23e.png)
+![3](https://user-images.githubusercontent.com/112959757/205315244-1a3f8435-d241-4f0f-a420-9b2d7d4889a7.png)
+![4](https://user-images.githubusercontent.com/112959757/205315259-9bdc35e3-9bfd-44b4-894f-c94ff84abfaf.png)
+![5](https://user-images.githubusercontent.com/112959757/205315303-14cad9df-012c-4289-bf78-923f814a1255.png)
+![6](https://user-images.githubusercontent.com/112959757/205315384-5f39fb9f-1ccd-47ca-8cf9-f631e4389647.png)
+![7](https://user-images.githubusercontent.com/112959757/205315405-c01f176f-1d87-4fda-87fd-3848161b80c1.png)
+![8](https://user-images.githubusercontent.com/112959757/205315424-74af2bb0-99d5-4807-bb65-a394d1a3c256.png)
+![9](https://user-images.githubusercontent.com/112959757/205315440-cb28ace4-1180-433e-83d0-ac793602e974.png)
+![10](https://user-images.githubusercontent.com/112959757/205315459-5beffb96-0e4c-40ec-8c7c-474bb418d568.png)
+![11](https://user-images.githubusercontent.com/112959757/205315487-3ccedb67-1a50-4416-8e20-f220ca0c34db.png)
 
-Hello world на Python в Google Colab:
-![image](https://user-images.githubusercontent.com/112959757/192843714-ab4b4aaf-2308-4e31-9370-64aebc8f857a.png)
-![image](https://user-images.githubusercontent.com/112959757/192843743-ab7e1e90-a6e9-4579-992e-56329edda106.png)
 
 ## Задание 2
-Пошаговое выполнение работы:
-![1](https://user-images.githubusercontent.com/112959757/192844135-ee4f5bf8-25fb-48b5-ba21-b6a80306bb3a.png)
-![2](https://user-images.githubusercontent.com/112959757/192844159-022528db-9cdf-40da-9184-93c5c8f9c98b.png)
-![3](https://user-images.githubusercontent.com/112959757/192844180-0e7deb51-4ca7-4014-bff1-71bccd099225.png)
-![4](https://user-images.githubusercontent.com/112959757/192844202-759ab8a4-6caf-43c1-b30b-6f3dc52624cf.png)
-![5](https://user-images.githubusercontent.com/112959757/192844291-b17b2b06-610d-4884-a59d-b87b5d79b984.png)
-![6](https://user-images.githubusercontent.com/112959757/192844319-c48c604d-1c49-490f-83df-627ac3785229.png)
-![7](https://user-images.githubusercontent.com/112959757/192844338-dfbc0002-c961-4ba6-a5f8-21bb9180ae12.png)
-![8](https://user-images.githubusercontent.com/112959757/192844372-c243db13-c4f8-4ba8-a339-6034c95054c9.png)
+
 
 ## Задание 3
-### Должна ли величина loss стремиться к нулю при изменении исходных данных? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ.
-Ответ: Не всегда, при f(x) = (a*x[i] + b) -> y[i], loss -> 0, т.к сумма квадратичных ошибок -> 0.
-![Example1](https://user-images.githubusercontent.com/112959757/192849171-0885938f-8b2e-4442-830a-5c0b427ce87c.png)
-В коде я добавил несколько итераций, в ходе которых x[i] -> y[i].
-Видно, что с каждой итерацией loss -> 0.
-### Какова роль параметра Lr? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ. В качестве эксперимента можете изменить значение параметра.
-Ответ: Lr - альфа-коэффициент, необходимый чтобы избежать избыточной коррекции весов a, b.
-![Example2](https://user-images.githubusercontent.com/112959757/192852690-29e0611c-4119-4f0d-be2e-b86b7b5b81a7.png)
-Я увеличил Lr до 0.01 и уменьшил кол-во итераций до 100. Получилось расхождение.
-## Выводы
+
 
 В ходе лабораторной работы мы: 
-1) Настроили Unity и VS Code.
-2) Ознакомились с основными операторами языка Python на примере реализации линейной регрессии.
-3) Рассмотрели некоторые тонкости реализации алгоритма линейной регрессии.
+1) Научились пользоваться сервисом Google Cloud
+2) Рассмотрели интеграцию Python и Unity с Google Sheets
+
 
 | Plugin | README |
 | ------ | ------ |
